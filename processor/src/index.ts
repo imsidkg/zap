@@ -40,3 +40,5 @@ const kafka = new Kafka({
     
  }
 }
+
+main()
