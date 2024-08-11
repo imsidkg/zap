@@ -4,7 +4,7 @@ import { userRouter } from './router/user';
 import { zapRouter } from './router/zap';
 const app = express();
 
-app.use(express());
+app.use(express.json());
 app.use(cors())
 
 app.use("/api/v1/user", userRouter);
